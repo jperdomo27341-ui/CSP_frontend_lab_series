@@ -3,9 +3,34 @@
 */
 
 // TODO 1: if..else with age discounts
+let age = 16;
+if (age <= 16){
+    console.log("Teen Discount");
+} else if(age >= 65) {
+    console.log("Senior Discount")
+} else {
+    console.log("No discount")
+}
 
+let weight = 180;
+if(weight <= 150){
+    console.log("You are underweight")
+} else if (weight <= 190) {
+    console.log("You are healthy")
+} else{
+    console.log("You need to start working out")
+} else{
+    console.log("You are healthy")
+}
 // TODO 2: Nested if with two numbers
+let number1 = 10
+let number2 = 20
 
+if(number1 == number2) {
+    console.log("Numbers are equal")
+} else if(number1 > number2) {
+    console.log("Number 1 is bigger")
+}
 // TODO 3: Switch statement for language greeting
 
 // TODO 4: While loop (1 to 10)
